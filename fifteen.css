@@ -1,0 +1,161 @@
+#content {
+    margin: 5% auto;
+    width: 1000px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+h1 {
+	text-align: center;
+    margin: 0 auto;
+}
+
+.outer {
+    width: 100%;
+    text-align: center;
+}
+
+.inner {
+    display: inline-block;
+}
+
+button, select {
+    margin: 20px 20px;
+	width: 100px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.tile {
+    width: 96px;
+    height: 96px;
+	border: 2px solid black;
+	font-size: 32pt;
+	font-family: sans-serif;
+    float: left;
+    text-align: center;  
+    line-height: 96px;
+	position: absolute;
+}
+
+#tile-1 { 
+	background-position: 0 0;
+}
+
+#tile-2 { 
+	background-position: -100px 0;      
+}
+
+#tile-3 { 
+	background-position: -200px 0;      
+}
+
+#tile-4 { 
+	background-position: -300px 0;    	
+}
+
+#tile-5 { 
+	background-position: 0 -100px; 
+}
+
+#tile-6 { 
+	background-position: -100px -100px; 
+}
+
+#tile-7 { 
+	background-position: -200px -100px; 
+}
+
+#tile-8 { 
+	background-position: -300px -100px; 
+}
+
+#tile-9 { 
+	background-position: 0 -200px; 
+}
+
+#tile-10 { 
+	background-position: -100px -200px; 
+}
+
+#tile-11 { 
+	background-position: -200px -200px; 
+}
+
+#tile-12 { 
+	background-position: -300px -200px; 
+}
+
+#tile-13 { 
+	background-position: 0 -300px; 
+}
+
+#tile-14 { 
+	background-position: -100px -300px; 
+}
+
+#tile-15 { 
+	background-position: -200px -300px; 
+}
+
+#tile-16 { 
+	 
+}
+
+.naruto { 
+	background: url("naruto.jpg"); 
+}
+
+.sasuke { 
+	background: url("sasuke.jpg");    
+}
+
+.itachi { 
+	background: url("bowser.jpg"); 
+}
+
+.hashirama { 
+	background: url("hashirama.jpg");
+}
+
+.madara {
+	background: url("madara.jpg");
+}
+
+.movablepiece {
+	transition: all 0.5s ease-in-out;
+}
+
+.movablepiece:hover {
+    border-color: red !important;
+    text-decoration: underline !important;
+    color: #006600;
+    cursor: pointer;
+}
+
+img {
+    float: right;
+	border: none;
+	margin-right: 10px;
+}
+
+#win {
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+#win img {
+    float: none !important;
+    height: 100% !important;
+}
